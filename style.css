@@ -1,0 +1,46 @@
+#mySidenav {
+  position: fixed;
+  top: 0;
+  right: 0px;
+  height: 100%;
+  width: 400px;
+  display: block;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #6495ED;
+}
+
+#mySidenav .sidenav {
+  position: relative;
+}
+
+#mySidenav .sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#mySidenav .sidenav a:hover {
+  color: red;
+}
+
+#mySidenav .sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  -webkit-transition: margin-left 0.5s;
+  transition: margin-left 0.5s;
+  padding: 16px;
+  position: relative;
+  overflow-x: hidden;
+}
+/*# sourceMappingURL=style.css.map */
