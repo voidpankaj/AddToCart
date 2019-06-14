@@ -19,18 +19,18 @@ app.controller('myCtrl', function ($scope) {
                         image : 'images/im4.jpeg', pid : '4', title : 'DAMN',price : 32,
                         content : "The shortage of the constructions skills and the alternatives of recruitment."
                      }
-                    //  {
-                    //     image : 'images/im5.jpeg', pid : '5', title : 'BODEGA',price : 51,
-                    //     content : "Barriers to construction contractors that want to implement sustainable construction."},
-                    //  {
-                    //     image : 'images/im6.jpeg', pid : '6', title : 'JUICERO',price : 57,
-                    //     content : "The construction industry: the adoption and development of safety culture."},
-                    //  {
-                    //     image : 'images/im7.jpeg', pid : '7', title : 'BRANDLESS',price : 41,
-                    //     content : "Direct property and its role within investment funds"},
-                    //  {
-                    //     image : 'images/im8.jpeg', pid : '8', title : 'Wizard of Oz Dorothy',price : 47,
-                    //     content : "Waste management in the construction industry."}
+                     {
+                        image : 'images/im5.jpeg', pid : '5', title : 'BODEGA',price : 51,
+                        content : "Barriers to construction contractors that want to implement sustainable construction."},
+                     {
+                        image : 'images/im6.jpeg', pid : '6', title : 'JUICERO',price : 57,
+                        content : "The construction industry: the adoption and development of safety culture."},
+                     {
+                        image : 'images/im7.jpeg', pid : '7', title : 'BRANDLESS',price : 41,
+                        content : "Direct property and its role within investment funds"},
+                     {
+                        image : 'images/im8.jpeg', pid : '8', title : 'Wizard of Oz Dorothy',price : 47,
+                        content : "Waste management in the construction industry."}
                     ];
     // add the item in the list
     $scope.addItem=function(item){
